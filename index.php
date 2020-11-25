@@ -36,7 +36,7 @@ if (!empty($_GET['delivery']) and $_GET['delivery'] === "sent") {
 </head>
 
 <body>
-    <div class="containere <?php echo $body_class ?>">
+    <div class="container <?php echo $body_class ?>">
         <form action="#" method="post">
             <div class="container_formulaire">
                 <input type="email" name="email" placeholder="Ton email de star..." required />
